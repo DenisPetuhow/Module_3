@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 #include <string>
 #include <Windows.h>
@@ -11,10 +10,9 @@ struct BankAccount
     double balance;          // Баланс
 };
 
-// Функция для изменения баланса счёта
-void changeBalance(BankAccount& account) {
-    std::cout << "Введите новый баланс: ";
-    std::cin >> account.balance;
+// Функция для изменения баланса счёта (теперь принимает новый баланс как параметр)
+void changeBalance(BankAccount& account, double newBalance) {
+    account.balance = newBalance;
 }
 
 int main()
@@ -32,7 +30,6 @@ int main()
     std::cout << "Введите имя владельца: ";
     std::getline(std::cin, userAccount.ownerName);
 
-
     std::cout << "Введите начальный баланс: ";
     std::cin >> userAccount.balance;
 
@@ -42,7 +39,11 @@ int main()
     std::cin >> choice;
 
     if (choice == 'y' || choice == 'Y') {
-        changeBalance(userAccount);
+        double newBalance;
+        std::cout << "Введите новый баланс: ";
+        std::cin >> newBalance;
+
+        changeBalance(userAccount, newBalance); // Вызов функции с двумя аргументами
     }
 
     // Вывод актуальной информации
@@ -52,4 +53,3 @@ int main()
 
     return 0;
 }
-*/
