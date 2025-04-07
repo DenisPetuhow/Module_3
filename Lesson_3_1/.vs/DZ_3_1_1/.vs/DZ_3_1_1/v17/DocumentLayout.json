@@ -35,8 +35,7 @@
               "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-02T17:41:30.23Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -44,8 +43,8 @@
               "Title": "DZ_3_1_2.cpp",
               "DocumentMoniker": "D:\\Programm\\2. Education\\2. Netologia\\1. C\u002B\u002B\\Lesson_3\\1_DZ\\Lesson_3_1\\.vs\\DZ_3_1_1\\DZ_3_1_2.cpp",
               "RelativeDocumentMoniker": "DZ_3_1_2.cpp",
-              "ToolTip": "D:\\Programm\\2. Education\\2. Netologia\\1. C\u002B\u002B\\Lesson_3\\1_DZ\\Lesson_3_1\\.vs\\DZ_3_1_1\\DZ_3_1_2.cpp*",
-              "RelativeToolTip": "DZ_3_1_2.cpp*",
+              "ToolTip": "D:\\Programm\\2. Education\\2. Netologia\\1. C\u002B\u002B\\Lesson_3\\1_DZ\\Lesson_3_1\\.vs\\DZ_3_1_1\\DZ_3_1_2.cpp",
+              "RelativeToolTip": "DZ_3_1_2.cpp",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-02T16:56:09.92Z",
