@@ -5,14 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7D77AE18-BB92-4473-9460-65266E1F68A4}|DZ_3_1_1.vcxproj|D:\\Programm\\2. Education\\2. Netologia\\1. C\u002B\u002B\\Lesson_3\\1_DZ\\Lesson_3_1\\.vs\\DZ_3_1_1\\DZ_3_1_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7D77AE18-BB92-4473-9460-65266E1F68A4}|DZ_3_1_1.vcxproj|solutionrelative:DZ_3_1_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D77AE18-BB92-4473-9460-65266E1F68A4}|DZ_3_1_1.vcxproj|D:\\Programm\\2. Education\\2. Netologia\\1. C\u002B\u002B\\Lesson_3\\1_DZ\\Lesson_3_1\\.vs\\DZ_3_1_1\\DZ_3_1_3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7D77AE18-BB92-4473-9460-65266E1F68A4}|DZ_3_1_1.vcxproj|solutionrelative:DZ_3_1_3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D77AE18-BB92-4473-9460-65266E1F68A4}|DZ_3_1_1.vcxproj|D:\\Programm\\2. Education\\2. Netologia\\1. C\u002B\u002B\\Lesson_3\\1_DZ\\Lesson_3_1\\.vs\\DZ_3_1_1\\DZ_3_1_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7D77AE18-BB92-4473-9460-65266E1F68A4}|DZ_3_1_1.vcxproj|solutionrelative:DZ_3_1_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,21 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DZ_3_1_3.cpp",
-              "DocumentMoniker": "D:\\Programm\\2. Education\\2. Netologia\\1. C\u002B\u002B\\Lesson_3\\1_DZ\\Lesson_3_1\\.vs\\DZ_3_1_1\\DZ_3_1_3.cpp",
-              "RelativeDocumentMoniker": "DZ_3_1_3.cpp",
-              "ToolTip": "D:\\Programm\\2. Education\\2. Netologia\\1. C\u002B\u002B\\Lesson_3\\1_DZ\\Lesson_3_1\\.vs\\DZ_3_1_1\\DZ_3_1_3.cpp*",
-              "RelativeToolTip": "DZ_3_1_3.cpp*",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-02T17:41:30.23Z",
-              "IsPinned": true
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -45,22 +24,10 @@
               "RelativeDocumentMoniker": "DZ_3_1_2.cpp",
               "ToolTip": "D:\\Programm\\2. Education\\2. Netologia\\1. C\u002B\u002B\\Lesson_3\\1_DZ\\Lesson_3_1\\.vs\\DZ_3_1_1\\DZ_3_1_2.cpp",
               "RelativeToolTip": "DZ_3_1_2.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-02T16:56:09.92Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DZ_3_1_1.cpp",
-              "DocumentMoniker": "D:\\Programm\\2. Education\\2. Netologia\\1. C\u002B\u002B\\Lesson_3\\1_DZ\\Lesson_3_1\\.vs\\DZ_3_1_1\\DZ_3_1_1.cpp",
-              "RelativeDocumentMoniker": "DZ_3_1_1.cpp",
-              "ToolTip": "D:\\Programm\\2. Education\\2. Netologia\\1. C\u002B\u002B\\Lesson_3\\1_DZ\\Lesson_3_1\\.vs\\DZ_3_1_1\\DZ_3_1_1.cpp",
-              "RelativeToolTip": "DZ_3_1_1.cpp",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-02T16:52:49.21Z"
             }
           ]
         }
