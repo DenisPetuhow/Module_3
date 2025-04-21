@@ -31,7 +31,7 @@ public:
     void bubble_sort(Address** addresses, int size) {
         for (int i = 0; i < size - 1; ++i) {
             for (int j = 0; j < size - i - 1; ++j) {
-                if (addresses[j]->get_city() < addresses[j + 1]->get_city()) {
+                if (addresses[j]->get_city() > addresses[j + 1]->get_city()) {
                     Address* temp = addresses[j];
                     addresses[j] = addresses[j + 1];
                     addresses[j + 1] = temp;
@@ -81,7 +81,7 @@ int main() {
 
     // Запись в out.txt в обратном порядке
     output << n << std::endl;
-    for (int i = n - 1; i >= 0; --i) {
+    for (int i = 0; i < n; ++i) {
         output << addresses[i]->get_output_address() << std::endl;
     }
 

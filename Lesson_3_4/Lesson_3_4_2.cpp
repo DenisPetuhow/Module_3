@@ -174,3 +174,15 @@ int main() {
     return 0;
 }
 */
+#include <iostream>
+#include <string>
+
+int main()
+{
+    setlocale(LC_ALL, "RU");
+    int a{};
+    std::cout << "введите мес€ц: ";
+    std::cin >> a;
+
+
+}
