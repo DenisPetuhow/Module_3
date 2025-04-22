@@ -51,7 +51,7 @@ public:
 class RightTriangle : public Triangle {
 public:
     RightTriangle(int a, int b, int c, int A, int B)
-        : Triangle(a, b, c, A, B, 90) {
+        : Triangle(a, b, c, A, B, 90) { // По правилам вызывает конструктор Triangle у которого есть уже имя, поэтому мы его переопределяем
         this->name = "Прямоугольный треугольник";
     }
 };
@@ -174,15 +174,3 @@ int main() {
     return 0;
 }
 */
-#include <iostream>
-#include <string>
-
-int main()
-{
-    setlocale(LC_ALL, "RU");
-    int a{};
-    std::cout << "введите месяц: ";
-    std::cin >> a;
-
-
-}
