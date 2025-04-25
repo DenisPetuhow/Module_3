@@ -55,7 +55,7 @@ int main() {
     return 0;
 }
 */
-/* // Когда два конструктора с разной областью видимости
+ /*// Когда два конструктора с разной областью видимости
 #include <iostream>
 #include <string>
 
@@ -86,13 +86,13 @@ public:
 // Класс Triangle (Треугольник), наследуется от Figure
 class Triangle : public Figure {
 public:
-    Triangle() : Figure(0, "Треугольник") {}
+    Triangle() : Figure(3, "Треугольник") {}
 };
 
 // Класс Quadrangle (Четырёхугольник), наследуется от Figure
 class Quadrangle : public Figure {
 public:
-    Quadrangle() : Figure(0, "Четырехугольник") {}
+    Quadrangle() : Figure(4, "Четырехугольник") {}
 };
 
 int main() {

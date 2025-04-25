@@ -40,7 +40,7 @@ int main() {
     input.ignore(); // Пропускаем перевод строки после N
 
     // Выделяем память под массив объектов Address
-    Address* addresses = new Address[n];
+    Address* addresses = new Address[n]; // Используем пустой констукторБ без него не работает
 
     for (int i = 0; i < n; ++i) {
         std::string city, street;
@@ -53,7 +53,7 @@ int main() {
         input.ignore(); // Пропускаем перевод строки после числа apartment
 
         // Инициализируем объект по индексу массива
-        addresses[i] = Address(city, street, house, apartment);
+        addresses[i] = Address(city, street, house, apartment); // Используем составной конструктор,
     }
 
     // Вывод считанных адресов на экран
