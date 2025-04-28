@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 
 enum class Month
 {
@@ -31,7 +31,7 @@ int main()
             break;
         }
         switch (numberMonth) {
-            {
+            
         case Month::январь:
             std::cout << "январь" << std::endl;
             break;
@@ -68,10 +68,9 @@ int main()
         case Month::ƒекабрь:
             std::cout << "ƒекабрь" << std::endl;
             break;
-            }
+            
         }
     } while (number <= 12);
 
     return 0;
 }
-*/
