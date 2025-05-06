@@ -4,19 +4,19 @@
 #include <iostream>
 namespace Den
 {
-    enum math_operation
+    enum class math_operation
     {
-        сумма = 1,
-        вычитание,
-        умножение,
-        деление,
-        степень
+        sum = 1,
+        difference,
+        multiplication,
+        division,
+        degree
     };
-    void sum(double m_number1, double m_number2);
-    void different(double m_number1, double m_number2);
-    void multiplication(double m_number1, double m_number2);
-    void division(double m_number1, double m_number2);
-    void degree(double m_number1, double m_number2);
+    double sum(double m_number1, double m_number2);
+    double difference(double m_number1, double m_number2);
+    double multiplication(double m_number1, double m_number2);
+    double division(double m_number1, double m_number2);
+    double degree(double m_number1, double m_number2);
 }
 
 

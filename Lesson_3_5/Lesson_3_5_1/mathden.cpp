@@ -1,27 +1,29 @@
 #include <cmath>
 #include "mathden.h"
 
-void Den::sum(double m_number1, double m_number2)
+double Den::sum(double m_number1, double m_number2)
 {
-    std::cout << m_number1 << " прибавить " << m_number2 << " = " << m_number1 + m_number2 << std::endl;
-};
+    return m_number1 + m_number2;
+}
 
-void Den::different(double m_number1, double m_number2)
+double Den::difference(double m_number1, double m_number2)
 {
-    std::cout << m_number1 << " вычесть " << m_number2 << " = " << m_number1 - m_number2 << std::endl;
-};
+    return m_number1 - m_number2;
+}
 
-void Den::multiplication(double m_number1, double m_number2)
+double Den::multiplication(double m_number1, double m_number2)
 {
-    std::cout << m_number1 << " умножить на  " << m_number2 << " = " << m_number1 * m_number2 << std::endl;
-};
+    return m_number1 * m_number2;
+}
 
-void Den::division(double m_number1, double m_number2)
+double Den::division(double m_number1, double m_number2)
 {
-    std::cout << m_number1 << " разделить на " << m_number2 << " = " << m_number1 / m_number2 << std::endl;
-};
+    if (m_number2 == 0)
+        return 0; // Лучше обработать ошибку, или бросить исключение!
+    return m_number1 / m_number2;
+}
 
-void Den::degree(double m_number1, double m_number2)
+double Den::degree(double m_number1, double m_number2)
 {
-    std::cout << m_number1 << " в степени " << m_number2 << " = " << pow(m_number1, m_number2) << std::endl;
-};
+    return pow(m_number1, m_number2);
+}

@@ -18,9 +18,7 @@ int main() {
         std::cin >> startValue;
         counter = Counter(startValue);
     }
-    else {
-        counter = Counter(); // Используем значение по умолчанию
-    }
+
 
     char command;
     do {
