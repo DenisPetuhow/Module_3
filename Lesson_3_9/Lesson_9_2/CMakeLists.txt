@@ -1,11 +1,8 @@
-   cmake_minimum_required(VERSION 3.10)
-   project(FiguresMVC)
-   set(CMAKE_CXX_STANDARD 17)
+cmake_minimum_required(VERSION 3.22.0)
 
-   include_directories(${CMAKE_SOURCE_DIR}/include)  # Для заголовков
+project(geometric_fugires)
 
-   add_executable(FiguresMVC
-       src/main.cpp
+   set(SOURCE_files src/main.cpp
        src/Figure.cpp
        src/Triangle.cpp
        src/RightTriangle.cpp
@@ -19,3 +16,19 @@
        src/View.cpp
        src/Controller.cpp
    )
+   set(HEADER_files
+       includ/Controller.h
+       includ/Figure.h
+       includ/Triangle.h
+       includ/RightTriangle.h
+       includ/IsoscelesTriangle.h
+       includ/EquilateralTriangle.h
+       includ/Quadrangle.h
+       includ/Rectangle.h
+       includ/Square.h
+       includ/Parallelogram.h
+       includ/Rhombus.h
+       includ/View.h
+   )
+
+   add_executable(geometric_fugires ${SOURCE_files} ${HEADER_files})
