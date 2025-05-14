@@ -2,7 +2,8 @@ cmake_minimum_required(VERSION 3.22.0)
 
 project(geometric_fugires)
 
-   set(SOURCE_files src/main.cpp
+   set(SOURCE_files 
+       src/main.cpp
        src/Figure.cpp
        src/Triangle.cpp
        src/RightTriangle.cpp
