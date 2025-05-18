@@ -140,11 +140,6 @@
   <ItemGroup>
     <ClCompile Include="Greeter.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\AnswerInfomation\AnswerInfomation.vcxproj">
-      <Project>{b94a8d7a-1077-4bfa-90a2-6c122a73e38e}</Project>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

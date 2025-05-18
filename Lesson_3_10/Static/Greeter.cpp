@@ -1,5 +1,5 @@
 #include "Greeter.h"
-namespace Answer
+namespace StaticAnswer
 {
 	std::string Greeter::greet(const std::string& name) {
 		return "Привет, " + name + "!";

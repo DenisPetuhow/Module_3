@@ -1,6 +1,6 @@
 #pragma once
 #include <string>
-namespace Answer
+namespace StaticAnswer
 {
 	class Greeter
 	{

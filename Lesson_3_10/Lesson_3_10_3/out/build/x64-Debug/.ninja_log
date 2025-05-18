@@ -1,0 +1,7 @@
+# ninja log v6
+7	120	7692984070683812	build.ninja	579ccb823d4f7491
+4	381	7692984068958423	CMakeFiles/DynamicLib.dir/Leaver.cpp.obj	26a8d85f5d34c942
+382	1502	7692984082677084	DynamicLib.dll	6e2f681b97db3f0c
+382	1502	7692984082677084	DynamicLib.lib	6e2f681b97db3f0c
+5	687	7692985261044249	CMakeFiles/UsingCmakeDynamicExe.dir/main.cpp.obj	821f21c70fa007b6
+688	1130	7692985267871039	UsingCmakeDynamicExe.exe	859a17e87d55c292
