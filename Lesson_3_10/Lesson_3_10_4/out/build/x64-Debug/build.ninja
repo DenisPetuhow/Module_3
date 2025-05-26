@@ -139,11 +139,11 @@ build CMakeFiles\DynamicLib.dir\Rhombus.cpp.obj: CXX_COMPILER__DynamicLib_unscan
 
 build DynamicLib.dll DynamicLib.lib: CXX_SHARED_LIBRARY_LINKER__DynamicLib_Debug CMakeFiles\DynamicLib.dir\Figure.cpp.obj CMakeFiles\DynamicLib.dir\Triangle.cpp.obj CMakeFiles\DynamicLib.dir\RightTriangle.cpp.obj CMakeFiles\DynamicLib.dir\IsoscelesTriangle.cpp.obj CMakeFiles\DynamicLib.dir\EquilateralTriangle.cpp.obj CMakeFiles\DynamicLib.dir\Quadrangle.cpp.obj CMakeFiles\DynamicLib.dir\Rectangle.cpp.obj CMakeFiles\DynamicLib.dir\Square.cpp.obj CMakeFiles\DynamicLib.dir\Parallelogram.cpp.obj CMakeFiles\DynamicLib.dir\Rhombus.cpp.obj
   LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -MDd
-  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL  /DEF:CMakeFiles\DynamicLib.dir\.\exports.def
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = CMakeFiles\DynamicLib.dir
   POST_BUILD = cd .
-  PRE_LINK = cd .
+  PRE_LINK = C:\Windows\system32\cmd.exe /C "E:\Programmer\Propramm\MVC\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E __create_def "D:\Programm\2. Education\2. Netologia\1. C++\Lesson_3\1_DZ\Lesson_3_10\Lesson_3_10_4\out\build\x64-Debug\CMakeFiles\DynamicLib.dir\.\exports.def" "D:\Programm\2. Education\2. Netologia\1. C++\Lesson_3\1_DZ\Lesson_3_10\Lesson_3_10_4\out\build\x64-Debug\CMakeFiles\DynamicLib.dir\.\exports.def.objs" && cd "D:\Programm\2. Education\2. Netologia\1. C++\Lesson_3\1_DZ\Lesson_3_10\Lesson_3_10_4\out\build\x64-Debug""
   RESTAT = 1
   TARGET_COMPILE_PDB = CMakeFiles\DynamicLib.dir\
   TARGET_FILE = DynamicLib.dll

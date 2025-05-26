@@ -16,7 +16,8 @@
 	{
 		"commands" : 
 		[
-			"add_library"
+			"add_library",
+			"target_compile_definitions"
 		],
 		"files" : 
 		[
@@ -31,6 +32,12 @@
 				"command" : 0,
 				"file" : 0,
 				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 6,
 				"parent" : 0
 			}
 		]
@@ -48,6 +55,10 @@
 			[
 				{
 					"define" : "DynamicLib_EXPORTS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MATHPOWERLIBRARYDYNAMIC_EXPORTS"
 				}
 			],
 			"language" : "CXX",

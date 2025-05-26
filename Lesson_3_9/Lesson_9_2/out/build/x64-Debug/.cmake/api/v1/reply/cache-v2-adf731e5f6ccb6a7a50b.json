@@ -123,10 +123,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "E:/Programmer/Propramm/MVC/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe"
 		},
 		{
@@ -235,10 +235,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "E:/Programmer/Propramm/MVC/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe"
 		},
 		{
@@ -723,7 +723,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Project"
+			"value" : "geometric_fugires"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1066,6 +1066,78 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "FiguresMVC_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/Programm/2. Education/2. Netologia/1. C++/Lesson_3/1_DZ/Lesson_3_9/Lesson_9_2/out/build/x64-Debug"
+		},
+		{
+			"name" : "FiguresMVC_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "FiguresMVC_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/Programm/2. Education/2. Netologia/1. C++/Lesson_3/1_DZ/Lesson_3_9/Lesson_9_2"
+		},
+		{
+			"name" : "GeometryProject_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/Programm/2. Education/2. Netologia/1. C++/Lesson_3/1_DZ/Lesson_3_9/Lesson_9_2/out/build/x64-Debug"
+		},
+		{
+			"name" : "GeometryProject_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "GeometryProject_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/Programm/2. Education/2. Netologia/1. C++/Lesson_3/1_DZ/Lesson_3_9/Lesson_9_2"
+		},
+		{
 			"name" : "Project_BINARY_DIR",
 			"properties" : 
 			[
@@ -1091,6 +1163,42 @@
 		},
 		{
 			"name" : "Project_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/Programm/2. Education/2. Netologia/1. C++/Lesson_3/1_DZ/Lesson_3_9/Lesson_9_2"
+		},
+		{
+			"name" : "geometric_fugires_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/Programm/2. Education/2. Netologia/1. C++/Lesson_3/1_DZ/Lesson_3_9/Lesson_9_2/out/build/x64-Debug"
+		},
+		{
+			"name" : "geometric_fugires_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "geometric_fugires_SOURCE_DIR",
 			"properties" : 
 			[
 				{

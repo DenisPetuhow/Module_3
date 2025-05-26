@@ -1,17 +1,16 @@
 # ninja log v6
+435	866	7699908671399496	UsingCmakeDynamicExe.exe	859a17e87d55c292
 14	509	7692993874537495	CMakeFiles/DynamicLib.dir/Rhombus.cpp.obj	e8c6786e3bab4400
 8	506	7692993874477653	CMakeFiles/DynamicLib.dir/EquilateralTriangle.cpp.obj	1964bbb469a6cfac
 10	432	7692993874497608	CMakeFiles/DynamicLib.dir/Rectangle.cpp.obj	ef021fbd9b755062
 6	438	7692993874457704	CMakeFiles/DynamicLib.dir/RightTriangle.cpp.obj	5a23b0938d5ffb78
 7	442	7692993874467680	CMakeFiles/DynamicLib.dir/IsoscelesTriangle.cpp.obj	9f10b7d81aae9121
 11	500	7692993874507579	CMakeFiles/DynamicLib.dir/Square.cpp.obj	858b8d1d86d8828a
-4	616	7692993874437755	CMakeFiles/DynamicLib.dir/Figure.cpp.obj	668981495db1c45e
 13	503	7692993874527516	CMakeFiles/DynamicLib.dir/Parallelogram.cpp.obj	ed8b4ba7a3ecfe55
+4	616	7692993874437755	CMakeFiles/DynamicLib.dir/Figure.cpp.obj	668981495db1c45e
 5	672	7692993874447729	CMakeFiles/DynamicLib.dir/Triangle.cpp.obj	47506eab56050690
 9	724	7692993874487626	CMakeFiles/DynamicLib.dir/Quadrangle.cpp.obj	6a3fa2e096d5738b
 434	950	7692993878736421	CMakeFiles/UsingCmakeDynamicExe.dir/main.cpp.obj	d4cac945407213cc
-7	148	7692995576107015	DynamicLib.dll	476e0d493059d55b
-7	148	7692995576107015	DynamicLib.lib	476e0d493059d55b
-5	99	7692998090626968	build.ninja	5340df8b554fe3c8
-7	146	7692998126286849	DynamicLib.dll	476e0d493059d55b
-7	146	7692998126286849	DynamicLib.lib	476e0d493059d55b
+7	435	7699908670671442	DynamicLib.dll	a1762b1a9c721d54
+7	435	7699908670671442	DynamicLib.lib	a1762b1a9c721d54
+5	99	7699912313684030	build.ninja	5340df8b554fe3c8

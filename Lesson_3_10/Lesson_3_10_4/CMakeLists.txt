@@ -25,7 +25,7 @@ set(HEADER_files
        Parallelogram.h
        Rhombus.h
 )
-
+set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 add_library(DynamicLib SHARED ${SOURCE_files} ${HEADER_files})
 add_executable(UsingCmakeDynamicExe main.cpp)
 target_link_libraries(UsingCmakeDynamicExe DynamicLib)
