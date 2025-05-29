@@ -1,7 +1,14 @@
 #pragma once
+
+#ifdef TLIBRARYDYNAMIC_EXPORTS
+#define TLIBRARY_API __declspec(dllexport)
+#else
+#define TLIBRARY_API __declspec(dllimport)
+#endif
+
 #include "Figure.h"
 
-class Triangle : public Figure {
+class TLIBRARY_API Triangle : public Figure {
 protected:
     int a, b, c;
     int A, B, C;

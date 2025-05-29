@@ -29,3 +29,9 @@ set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 add_library(DynamicLib SHARED ${SOURCE_files} ${HEADER_files})
 add_executable(UsingCmakeDynamicExe main.cpp)
 target_link_libraries(UsingCmakeDynamicExe DynamicLib)
+
+#Для студии ставим флаг, что кодировка исходников UTF-8
+if(MSVC)
+add_compile_options("$<$<C_COMPILER_ID:MSVC>:/utf-8>")
+add_compile_options("$<$<CXX_COMPILER_ID:MSVC>:/utf-8>")
+endif()
