@@ -109,19 +109,19 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/Programm/2. Education/2. Netologia/1. C++/Lesson_3/1_DZ/Lesson_3_10/Lesson_3_10_3/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-cxzu68"
-      binary: "D:/Programm/2. Education/2. Netologia/1. C++/Lesson_3/1_DZ/Lesson_3_10/Lesson_3_10_3/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-cxzu68"
+      source: "D:/Programm/2. Education/2. Netologia/1. C++/Lesson_3/1_DZ/Lesson_3_10/Lesson_3_10_3/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-k3pwpn"
+      binary: "D:/Programm/2. Education/2. Netologia/1. C++/Lesson_3/1_DZ/Lesson_3_10/Lesson_3_10_3/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-k3pwpn"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/Programm/2. Education/2. Netologia/1. C++/Lesson_3/1_DZ/Lesson_3_10/Lesson_3_10_3/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-cxzu68'
+        Change Dir: 'D:/Programm/2. Education/2. Netologia/1. C++/Lesson_3/1_DZ/Lesson_3_10/Lesson_3_10_3/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-k3pwpn'
         
-        Run Build Command(s): E:\\PROGRAMMER\\PROPRAMM\\MVC\\COMMON7\\IDE\\COMMONEXTENSIONS\\MICROSOFT\\CMAKE\\Ninja\\ninja.exe -v cmTC_4125c
-        [1/2] E:\\Programmer\\Propramm\\MVC\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_4125c.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_4125c.dir\\ /FS -c E:\\Programmer\\Propramm\\MVC\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\Programmer\\Propramm\\MVC\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_4125c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\Programmer\\Propramm\\MVC\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4125c.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_4125c.exe /implib:cmTC_4125c.lib /pdb:cmTC_4125c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): E:\\PROGRAMMER\\PROPRAMM\\MVC\\COMMON7\\IDE\\COMMONEXTENSIONS\\MICROSOFT\\CMAKE\\Ninja\\ninja.exe -v cmTC_7ac63
+        [1/2] E:\\Programmer\\Propramm\\MVC\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_7ac63.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_7ac63.dir\\ /FS -c E:\\Programmer\\Propramm\\MVC\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\Programmer\\Propramm\\MVC\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_7ac63.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\Programmer\\Propramm\\MVC\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7ac63.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_7ac63.exe /implib:cmTC_7ac63.lib /pdb:cmTC_7ac63.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -161,8 +161,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/Programm/2. Education/2. Netologia/1. C++/Lesson_3/1_DZ/Lesson_3_10/Lesson_3_10_3/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-f67jak"
-      binary: "D:/Programm/2. Education/2. Netologia/1. C++/Lesson_3/1_DZ/Lesson_3_10/Lesson_3_10_3/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-f67jak"
+      source: "D:/Programm/2. Education/2. Netologia/1. C++/Lesson_3/1_DZ/Lesson_3_10/Lesson_3_10_3/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-nh0k9f"
+      binary: "D:/Programm/2. Education/2. Netologia/1. C++/Lesson_3/1_DZ/Lesson_3_10/Lesson_3_10_3/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-nh0k9f"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
@@ -170,11 +170,11 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/Programm/2. Education/2. Netologia/1. C++/Lesson_3/1_DZ/Lesson_3_10/Lesson_3_10_3/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-f67jak'
+        Change Dir: 'D:/Programm/2. Education/2. Netologia/1. C++/Lesson_3/1_DZ/Lesson_3_10/Lesson_3_10_3/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-nh0k9f'
         
-        Run Build Command(s): E:\\PROGRAMMER\\PROPRAMM\\MVC\\COMMON7\\IDE\\COMMONEXTENSIONS\\MICROSOFT\\CMAKE\\Ninja\\ninja.exe -v cmTC_99fba
-        [1/2] E:\\Programmer\\Propramm\\MVC\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_99fba.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_99fba.dir\\ /FS -c E:\\Programmer\\Propramm\\MVC\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\Programmer\\Propramm\\MVC\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_99fba.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\Programmer\\Propramm\\MVC\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_99fba.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_99fba.exe /implib:cmTC_99fba.lib /pdb:cmTC_99fba.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): E:\\PROGRAMMER\\PROPRAMM\\MVC\\COMMON7\\IDE\\COMMONEXTENSIONS\\MICROSOFT\\CMAKE\\Ninja\\ninja.exe -v cmTC_0488e
+        [1/2] E:\\Programmer\\Propramm\\MVC\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_0488e.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_0488e.dir\\ /FS -c E:\\Programmer\\Propramm\\MVC\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\Programmer\\Propramm\\MVC\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_0488e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\Programmer\\Propramm\\MVC\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0488e.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_0488e.exe /implib:cmTC_0488e.lib /pdb:cmTC_0488e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -

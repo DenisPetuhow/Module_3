@@ -1,5 +1,5 @@
 #pragma once
-#ifdef MATHPOWERLIBRARYDYNAMIC_EXPORTS
+#ifdef DYNAMIC_EXPORTS //”казываетс€ им€ библиотеки capslook
 #define MATHPOWERLIBRARY_API __declspec(dllexport)
 #else
 #define MATHPOWERLIBRARY_API __declspec(dllimport)

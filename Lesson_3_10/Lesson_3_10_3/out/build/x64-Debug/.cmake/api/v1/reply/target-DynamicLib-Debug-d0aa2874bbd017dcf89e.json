@@ -58,7 +58,7 @@
 				},
 				{
 					"backtrace" : 2,
-					"define" : "MATHPOWERLIBRARYDYNAMIC_EXPORTS"
+					"define" : "LEAVER_EXPORTS"
 				}
 			],
 			"language" : "CXX",

@@ -41,12 +41,7 @@ Lesson_3_10\AnswerInfomation\AnswerInfomation.cpp(4,10): error C1083: Не уд�
 Общий механизм работы
 Для таких макросов в хедере:
 
-1
-2
-3
-4
-5
-6
+
 //Leaver.h
 #ifdef LEAVER_EXPORTS  //Макрос экспорта
 #define LEAVER_API __declspec(dllexport)
@@ -65,6 +60,9 @@ Lesson_3_10\AnswerInfomation\AnswerInfomation.cpp(4,10): error C1083: Не уд�
 В поле “Определения препроцессора”. Перед другими макросами вида: _DEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions) (у вас могут немного отличаться) добавьте макрос экспорта, который прописан в хедере. Это самый главный шаг. В примере выше это будет LEAVER_EXPORTS. Итоговая строчка: LEAVER_EXPORTS;_DEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)
 Убедитесь, что в редакторе, в Leaver.h подсветилась синим строчка #define LEAVER_API __declspec(dllexport), при этом строчка #define LEAVER_API __declspec(dllimport)
 Убедитесь, что при пересборке решения нет ворнинга C4273
+!!!!!!!!! Это если прописывать свой макрос для EXPORT если прописать имя файла(библиотеки)_EXPORT все работает без этого
+
+
 Задание 3 - на доработку. Тот же warning:
 
 1
@@ -80,6 +78,7 @@ Lib.vcxproj]
 Для CMake три варианта решения (учитывайте свои названия целей и макросов!):
 
 Вы можете добавить макрос в настройки проекта в CMakeLists.txt. Делается это так, например: target_compile_definitions(LeaverLib PRIVATE LEAVER_EXPORTS) Более общий случай: target_compile_definitions(<ИМЯ ЦЕЛИ-БИБИОТЕКИ> PRIVATE <МАКРОС ЭКСПОРТА>)
+!!!!Лучше всегда так как выше
 Так как это проект CMake, то CMake в настройках проекта библиотеки автоматически добавил макрос LeaverLib_EXPORTS. Вы можете просто заменить в коде LEAVER_EXPORTS на LeaverLib_EXPORTS. В более общем случае замените свой макрос экспорта на <ИМЯ ЦЕЛИ-БИБИОТЕКИ>_EXPORTS
 Нужно убрать макросы LEAVER_EXPORTS и LEAVER_API отовсюду, и просто написать в CMakeLists.txt строчку: set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON) Эта команда автоматически сделает все функции и методы в библиотеке экспортируемыми.
 Задание 4 - на доработку. Вот тут вы как раз столкнулись с проблемами экспорта. Из предыдущих проблем. У вас ошибка линковщика: LINK : fatal error LNK1104: не удается открыть файл "Debug\DynamicLib.lib" Происходит потому, что вы ничего не экспортируете, и собирается dll-файл без lib-файла. Он необходим для подключения. Исправьте ошибки экспорта и будет собираться/запускаться.
